@@ -6,18 +6,18 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1252",
+      "name": "帮助",
+      "font_class": "bangzhu",
+      "unicode": "f0143",
+      "unicode_decimal": 983363
+    },
+    {
       "icon_id": "714438",
       "name": "搜索",
       "font_class": "sousuo",
       "unicode": "e613",
       "unicode_decimal": 58899
-    },
-    {
-      "icon_id": "1167197",
-      "name": "向左",
-      "font_class": "xiangzuo",
-      "unicode": "e653",
-      "unicode_decimal": 58963
     },
     {
       "icon_id": "1403431",
@@ -34,18 +34,18 @@
       "unicode_decimal": 58884
     },
     {
-      "icon_id": "7335472",
-      "name": "向左",
-      "font_class": "xiangzuo1",
-      "unicode": "eb21",
-      "unicode_decimal": 60193
+      "icon_id": "7335463",
+      "name": "向右",
+      "font_class": "xiangyou",
+      "unicode": "eb1f",
+      "unicode_decimal": 60191
     },
     {
-      "icon_id": "7956371",
-      "name": "帮助",
-      "font_class": "bangzhu",
-      "unicode": "e629",
-      "unicode_decimal": 58921
+      "icon_id": "7335472",
+      "name": "向左",
+      "font_class": "xiangzuo",
+      "unicode": "eb21",
+      "unicode_decimal": 60193
     },
     {
       "icon_id": "8361891",
@@ -53,13 +53,6 @@
       "font_class": "gouwudai",
       "unicode": "e6d8",
       "unicode_decimal": 59096
-    },
-    {
-      "icon_id": "11079196",
-      "name": "向左",
-      "font_class": "xiangzuo2",
-      "unicode": "e611",
-      "unicode_decimal": 58897
     }
   ]
 }
