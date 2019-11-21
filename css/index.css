@@ -5,11 +5,16 @@
 	}
 	a{
 		text-decoration:none;
+		color: #a5a5a6;
+		font-size: 12px;
+	}
+	a:hover{
 		color: #e5e5e5;
 	}
 	.container{
 		margin:0 auto;
 		width: 1220px;
+		position: relative;
 	}
 	.clearfix:after{
 	display: block;
@@ -26,35 +31,119 @@
 		width: 100%;
 		/*height: 45px;*/
 		background-color: #303134;
+		position: relative;
 	}
-	nav img{
+	nav .nav-logo i{
 		float: left;
 		margin-left: 21px;
-		margin-top: 13px;
-		width: 18px;
-		height: 18px;
+		margin-top: 11px;
+		font-size: 21px;
 	}
-	nav ul{
+	nav .nav-logo a{
+		color: #e5e5e5;
+	}
+	nav .n-list{
 		float: right;
-		font-size: 12px;
-		line-height: 45px;
-		margin:0 181px 0 0;
+		line-height: 43px;
+		margin-right:181px;
 	}
-	nav ul .h-item{
+	nav ul .n-item{
 		float: left;
 		margin-right: 39px;
 	}
-	nav .nav-aside
-.shoppinglist{
-	width: 100%;
-	height: 74px;
-	background-color: skyblue;
-}
-.focus{
-	width: 100%;
-	height: 1269px;
-	background-color: yellow;
-}
+	nav .nav-aside{
+		position: absolute;
+		right: 26px;
+		bottom: 14px;
+	}
+	nav .nav-aside .na-item{
+		float: right;
+		margin-left: 22px;
+	}
+	nav .nav-aside .na-item a:hover{
+		color: #99999A;
+	}
+/*首页标题栏*/
+	.shoppinglist{
+		width: 100%;
+		background-color: #fff;
+		/*box-shadow: 1px 4px 10px 1px rgba(0,0,0,0.5);*/
+		z-index: 20;
+	}
+	.shoppinglist .s-list{
+		float: left;
+	}
+	.shoppinglist .s-list .s-item{
+		float: left;
+		margin-right: 30px;
+	}
+	.shoppinglist .s-list .s-item a{
+		line-height: 75px;
+		font-size: 14px;
+		color: #4f4f4f;
+	}
+	.shoppinglist .s-list .s-item a:hover{
+		color: #5079d9;
+	}
+	.shoppinglist .search{
+		position: absolute;
+		right: 0px;
+		top: 20px;
+	}
+	.shoppinglist .search input{
+		width: 330px;
+		height: 36px;
+		border-radius: 18px;
+		border: 1px solid #ebebeb; 
+		box-sizing: border-box;
+		outline: none;
+		padding-left: 42px;
+	}
+	.shoppinglist .search input:focus ~.hot-words{
+		display: none;
+	}
+	.shoppinglist .search i{
+		position: absolute;
+		top: 9px;
+		left: 12px;
+		font-size: 18px;
+		font-weight: bolder;
+		color: #ABAAAA;
+		cursor: pointer;
+	}
+	.shoppinglist .search .hot-words{
+		position: absolute;
+		top: 7px;
+		right: 8px;
+	}
+	.shoppinglist .search .hot-words a{
+		display: inline-block;
+		width: 76px;
+		border-radius: 10px;
+		text-align: center;
+		font-weight: bold;
+	}
+	.shoppinglist .search .hot-words a:first-child{
+		color: #3965cc;
+		border: 1px solid #93b2f7;
+		background-color: #e5efff;
+	}
+	.shoppinglist .search .hot-words a:last-child{
+		color: #8aad37;
+		border: 1px solid #b5cc7b;
+		background-color: #f7fae1;
+	}
+/*焦点部分*/
+	.focus{
+		width: 100%;
+		height: 1269px;
+		background-color: #ededed;
+	}
+	.focus .slidebox{
+		width: 1220px;
+		height: 500px;
+		background-color: yellow;
+	}
 footer{
 	width: 100%;
 	height: 355px;
