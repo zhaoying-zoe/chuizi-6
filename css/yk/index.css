@@ -1,0 +1,16 @@
+/*头部开始*/
+.top{
+	width: 100%;
+	height: 45px;
+	background: red;
+}
+.main{
+	width: 100%;
+	height: 1379px;
+	background: green;
+}
+.footer{
+	width: 100%;
+	height: 343px;
+	background: purple;
+}
