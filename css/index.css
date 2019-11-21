@@ -5,6 +5,10 @@
 	}
 	a{
 		text-decoration:none;
+		color: #a5a5a6;
+		font-size: 12px;
+	}
+	a:hover{
 		color: #e5e5e5;
 	}
 	.container{
@@ -26,30 +30,58 @@
 		width: 100%;
 		/*height: 45px;*/
 		background-color: #303134;
+		position: relative;
 	}
-	nav img{
+	nav .nav-logo i{
 		float: left;
 		margin-left: 21px;
-		margin-top: 13px;
-		width: 18px;
-		height: 18px;
+		margin-top: 11px;
+		font-size: 21px;
 	}
-	nav ul{
+	nav .nav-logo a{
+		color: #e5e5e5;
+	}
+	nav .n-list{
 		float: right;
-		font-size: 12px;
-		line-height: 45px;
-		margin:0 181px 0 0;
+		line-height: 43px;
+		margin-right:181px;
 	}
-	nav ul .h-item{
+	nav ul .n-item{
 		float: left;
 		margin-right: 39px;
 	}
-	nav .nav-aside
-.shoppinglist{
-	width: 100%;
-	height: 74px;
-	background-color: skyblue;
-}
+	nav .nav-aside{
+		position: absolute;
+		right: 26px;
+		bottom: 14px;
+	}
+	nav .nav-aside .na-item{
+		float: right;
+		margin-left: 22px;
+	}
+	nav .nav-aside .na-item a:hover{
+		color: #99999A;
+	}
+/*首页标题栏*/
+	.shoppinglist{
+		width: 100%;
+		background-color: #fff;
+	}
+	.shoppinglist .s-list{
+		float: left;
+	}
+	.shoppinglist .s-list .s-item{
+		float: left;
+		margin-right: 30px;
+	}
+	.shoppinglist .s-list .s-item a{
+		line-height: 75px;
+		font-size: 14px;
+		color: #4f4f4f;
+	}
+	.shoppinglist .s-list .s-item a:hover{
+		color: #5079d9;
+	}
 .focus{
 	width: 100%;
 	height: 1269px;
