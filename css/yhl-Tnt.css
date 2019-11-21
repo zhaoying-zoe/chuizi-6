@@ -1,0 +1,70 @@
+/*公共样式*/
+.container{
+	height: 100%;
+	width: 1227px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.clearfix:after{
+	content: '';
+	clear: both;
+	visibility: hidden;
+	display: block;
+}
+a{
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+	line-height: 40px;
+
+}
+.up{
+	width: 1903px;
+	height: 100px;
+	background-image: url(../images/yhl/【锤子商城】坚果TNT-概览/ia_900000000.png);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	
+}
+.down{
+	width: 1903px;
+	height: 40px;
+}
+/*头部部分*/
+	.top{
+		width: 100%;
+		height: 140px;
+		background-color: ;
+		padding-top: 30px;
+		box-sizing: border-box;
+	}
+	.top .logo{
+		width: 40px;
+		height: 40px;
+		float: left;
+		margin-right: 83px;
+	}
+	.top .nav1{
+		width: 100%;
+		height: 40px;
+		/*background-color: black;*/
+	}
+	.top .nav1 .item{
+		float: left;
+		margin-right: 39px;
+	}
+/*头部结束
+/*主要部分*/
+	.main{
+		width: 100%;
+		height:5761px;
+		background-color: blue;
+	}
+/*主要结束*/
+/*底部部分*/
+	.footer{
+		width: 100%;
+		height: 344px;
+		background-color: gray;
+	}
+/*底部结束*/
