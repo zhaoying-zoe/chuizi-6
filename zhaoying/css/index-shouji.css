@@ -1,0 +1,88 @@
+.top{
+	height: 119px;
+	width: 100%;
+}
+.top .nav{
+	width: 100%;
+	background: #2a2b2d;
+	height: 45px;
+}
+.top .nav .logo{
+	width: 342px;
+	line-height: 45px;
+	font-size: 20px;
+	color: white;
+	padding-left: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+.top .nav .logo i{
+	font-size: 30px;
+	cursor: pointer;
+}
+.top .nav .nav-list{
+	width: 1222px;
+	float: left;
+	line-height: 42px;
+}
+.top .nav .nav-list .nav-item{
+	float: left;
+	padding-left: 40px;
+	cursor: pointer;
+}
+.top .nav .nav-list .nav-item a:hover{
+	color: #e5e5e5;
+}
+.top .nav .nav-list .nav-item:first-child{
+	margin-left: 130px;
+	padding-left: 0px;
+}
+.top .nav .nav-list .nav-item:first-child a{
+	color: #e5e5e5;
+}
+.top .nav .nav-list .nav-item:last-child{
+	margin-right: 150px;
+}
+.top .nav .user a{
+	float: left;
+	line-height: 43px;
+	font-size: 20px;
+	color: #a1a1a2;
+}
+.top .nav .user a:first-child{
+	margin-left: 261px;
+	margin-right: 16px;
+}
+.top .nav .user a:hover{
+	color: #949596;
+}
+.top .nav .user .user-cart{
+	display: none;
+	width: 300px;
+	height: 300px;
+	background: #fff;
+	position: absolute;
+	top: 46px;
+	right: 20px;
+	border-radius: 8px;
+	transition: all 10s;
+	/* transform: all 1s; */
+}
+.top .nav .user .cart:hover~.user-cart{
+	display: block;
+}
+.top .search{
+	width: 100%;
+	height: 74px;
+	background: #fff;
+}
+.focus{
+	height: 625px;
+	background: gray;
+	width: 100%;
+}
+.footer{
+	height: 355px;
+	background: pink;
+	width: 100%;
+}
