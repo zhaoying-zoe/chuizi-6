@@ -1,7 +1,8 @@
+/*清除格式*/
 	*{
-				margin:0;
-				padding: 0;
-			}
+		margin:0;
+		padding: 0;
+	}
 	.clearfix:after{
 		clear: both;
 		display: block;
@@ -12,6 +13,7 @@
 	.clearfix{
 		*zoom:1;
 	}
+/*顶部区域开始 */
 	a{
 		text-decoration: none;
 		color: #8f8f8f; 
@@ -244,22 +246,19 @@
 	#li2 a{
 		color: #ebeefd;
 	}
+/*中间部分*/
 	.box3 img{
 		margin:0px 0px;
 		width:100%;
-
 	}
+/*底部区域开始*/
 	footer{
 		width: 100%;
 	}
 	.box5{
 		margin-top: 60px;
-
-		/*position: relative;*/
 		margin-left: 340px;
 		font-size: 12px;
-		/*background-color: red;
-		border-top: 1px solid black;*/
 	}
 	.box5 dt{
 		font-weight:bold; 
@@ -291,7 +290,6 @@
 	.box5-1 img{
 		cursor: pointer;
 	}
-	
 	.box5-1 p{
 		float: right;
 	}
@@ -299,7 +297,6 @@
 		font-size: 21px;
 		font-weight: 900;
 		color: #718ac2;
-
 	}
 	.box5-1 p:nth-child(2){
 		color: #979797;
@@ -321,7 +318,6 @@
 		background: #e7e7e7;
 		margin-left: auto;
 		margin-right: auto;
-		/*margin: 0px  400px 400px 400px;*/
 		margin-top: 40px;
 	}
 	.box6{
