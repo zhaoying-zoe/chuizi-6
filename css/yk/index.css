@@ -12,10 +12,10 @@
 }
 .top .sercive{
 	position: absolute;
-	left: 300px;
+	left: 497px;
 	line-height: 45px;
 }
-.top .sercive li a:hover {
+.top .sercive li a:hover{
 	color: #e5e5e5;
 }
 .top .sercive .sercive-item{
@@ -25,6 +25,39 @@
 .top .sercive .sercive-item a{
 	font-size: 11px;
 	color: #bebfc0;
+}
+.top .sercive .sercive-item a:last-child:hover .hide{
+	display: block;
+}
+.top .sercive .sercive-item .hide{
+	width: 137px;
+	height: 183px;
+	border: 1px solid #dfdfdf;
+	border-radius: 10px;
+	background: #fff;
+	position: relative;
+	display: none;
+}
+.top .sercive .sercive-item .hide img{
+	width: 112px;
+	height: 105px;
+	position: absolute;
+	top: 17px;
+	left: 13px;
+}
+.top .sercive .sercive-item .hide .hide-text{
+	color: #808080;
+	position: absolute;
+	left: 10px;
+	bottom: 15px;
+	font-size: 14px;
+}
+.top .sercive .sercive-item .hide .hide-text2{
+	color: #c1c1c1;
+	position: absolute;
+	left: 26px;
+	bottom: -5px;
+	font-size: 11px;
 }
 .top .aside{
 	float: right;
@@ -45,12 +78,72 @@
 	top: 14px;
 	right: 22px;
 }
+.top .aside .cart:hover .cart-hide{
+	display: block;
+}
+.top .aside .cart .cart-hide{
+	width: 362px;
+	height: 316px;
+	border: 1px solid #dfdfdf;
+	border-radius: 5px;
+	position: relative;
+	top: 48px;
+	right: 20px;
+	background: #fff;
+	display: none;
+}
+.top .aside .cart .cart-hide img{
+	width: 63px;
+	height: 63px;
+	position: absolute;
+	top: 91px;
+	left: 125px;
+}
+.top .aside .cart .cart-hide .cart-hide-text{
+	font-size: 18px;
+	color: #333;
+	position: absolute;
+	bottom: 116px;
+	left: 140px;
+	font-weight:bold;;
+}
+.top .aside .cart .cart-hide .cart-hide-text2{
+	font-size: 13px;
+	color: #bebfc0;
+	position: absolute;
+	bottom: 94px;
+	left: 54px;
+}
 /*头部结束*/
 /*主要开始*/
 .main{
 	width: 100%;
 	height: 1379px;
 	background: green;
+}
+.main .nav{
+	width: 100%;
+	height: 75px;
+	background: #fff;
+}
+.main .nav ul{
+	padding-left: 351px;	
+}
+.main .nav .nav-item{
+	float: left;
+	line-height: 75px;
+	font-size: 14px;
+	margin-left: 41px;
+}
+.main .nav .nav-item a{
+	color: #757575;
+}
+.main .nav .nav-item a:hover{
+	color: #333;
+}
+.main .nav .nav-item a:focus{
+	color: #333;
+	font-weight: bold;
 }
 /*主要结束*/
 /*底部开始*/
