@@ -1,0 +1,121 @@
+/*公共样式*/
+	.container{
+		width: 1222px;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	a{
+		font-size: 12px;
+		color: #bebebe;
+		text-decoration: none;
+	}
+	a:hover{
+		color:#e5e5e5;
+	}
+/*公共样式结束*/
+/*头部部分*/
+	.up{
+		width: 100%;
+		height: 45px;
+		background-color: #2e2f32;
+		line-height: 44px;
+		position: relative;
+
+	}
+	.up .logo img{
+		width: 18px;
+		height: 18px;
+		float: left;
+		margin-left: 20px;
+		margin-top: 13px;
+	}
+	.up .list{
+		float: left;
+	}
+	.up .list .item{
+		float: left;
+		margin-right: 39px;
+	}
+	.up .list .item:nth-child(1) a{
+		font-weight: 700;
+		color:#e5e5e5;
+		margin-left: 42px;
+	}
+	.up .i-left{
+		width: 36px;
+		height: 36px;
+		float: right;
+		background-image: url(../images/yhl/【锤子商城】坚果手机/ia_100000000533.png);
+		background-position: -36px -36px;
+		position: absolute;
+		top: 1px;
+		right: 26px;
+		transform: scale(0.5);
+	}
+
+	.up .i-right{
+		width: 36px;
+		height: 36px;
+		float: right;
+		background-image: url(../images/yhl/【锤子商城】坚果手机/ia_100000000533.png);
+		background-position: -36px -0px;
+		position: absolute;
+		top:1px;
+		right: 62px;
+		transform: scale(0.5);
+	}
+	.nav{
+		width: 100%;
+		height: 74px;
+		background-color: #fff;
+		line-height: 74px;
+	}
+	.nav .nav-item a{
+		color: #4f4f4f;
+		margin-right: 30px;
+		float: left;
+	}
+	.nav .nav-item:nth-child(1){
+		color: #333;
+		font-weight: 700;
+	}
+	.nav .nav-item:nth-child(4){
+		color: #333;
+		font-weight: 700;
+	}
+	.nav .nav-right{
+		width: 330px;
+		height: 36px;
+		line-height: 36px;
+		float: right;
+		margin-top: 20px;
+		position: relative;
+	}
+	.nav .nav-right input{
+		width: 100%;
+		height: 100%;
+		border-radius: 18px;
+		border: 1px solid #ebebeb; 
+		box-sizing: border-box;
+		outline: none;
+		padding-left: 42px;
+	}
+	.nav .nav-right i{
+		font-size: 20px;
+		top: 7px;
+   		left: 10px;
+    	position: absolute;
+    	color: #ABAAAA;
+    	cursor: pointer;
+	}
+	.section{
+		width: 100%;
+		height: 1901px;
+		background-color: #ededed;
+	}
+	.footer{
+		width: 100%;
+		height: 355px;
+		background-color: #fafafa;
+	}
