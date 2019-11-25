@@ -119,7 +119,7 @@
 .main{
 	width: 100%;
 	height: 1379px;
-	background: green;
+	background: #e5e5e5;
 }
 .main .nav{
 	width: 100%;
@@ -144,6 +144,48 @@
 .main .nav .nav-item a:focus{
 	color: #333;
 	font-weight: bold;
+}
+.main .content .content-list{
+	width: 1220px;
+	height: 501px;
+	margin: 25px 342px 10px 342px;
+	/*background: pink;*/
+	border-radius: 7px;
+	position: relative;
+	/*animation: aa 2s ease 0s infinite;*/
+}
+.main .content .content-list img{
+	width: 100%;
+	height: 100%;
+	border-radius: 7px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.main .content .content-list .img2{
+	animation: aaa 4s ease 6s infinite;
+	animation-fill-mode: both;
+	animation-direction:alternate;
+}
+@keyframes aaa{
+	0%{
+		opacity: 0;
+	}
+	35%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.main .content .content-list-2{
+	width: 1219px;
+	height: 803px;
+	background: orange;
+	margin: 0px auto;
+	border: 1px solid #dbdbdb;
+	border-radius: 7px;
+	border-bottom: 41px;
 }
 /*主要结束*/
 /*底部开始*/
