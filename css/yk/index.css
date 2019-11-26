@@ -1,3 +1,9 @@
+/*公共样式开始*/
+.active{
+	color: #333;
+	font-weight: 800;
+}
+/*公共样式结束*/
 /*头部开始*/
 .top{
 	width: 100%;
@@ -22,7 +28,7 @@
 	float: left;
 	margin-right: 39px;
 }
-.top .sercive .sercive-item a{
+.top .sercive .sercive-item .nav-item-a{
 	font-size: 11px;
 	color: #bebfc0;
 }
@@ -142,8 +148,8 @@
 	color: #333;
 }
 .main .nav .nav-item a:focus{
-	color: #333;
-	font-weight: bold;
+	/*color: #333;*/
+	/*font-weight: bold;*/
 }
 .main .content .content-list{
 	width: 1220px;
