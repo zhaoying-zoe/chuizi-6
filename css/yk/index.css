@@ -1,7 +1,7 @@
 /*公共样式开始*/
 .active{
 	color: #333;
-	font-weight: 800;
+	font-weight: bolder;
 }
 /*公共样式结束*/
 /*头部开始*/
@@ -28,7 +28,7 @@
 	float: left;
 	margin-right: 39px;
 }
-.top .sercive .sercive-item .nav-item-a{
+.top .sercive .sercive-item a{
 	font-size: 11px;
 	color: #bebfc0;
 }
@@ -43,6 +43,7 @@
 	background: #fff;
 	position: relative;
 	display: none;
+	z-index: 1;
 }
 .top .sercive .sercive-item .hide img{
 	width: 112px;
@@ -97,6 +98,7 @@
 	right: 20px;
 	background: #fff;
 	display: none;
+	z-index: 2;
 }
 .top .aside .cart .cart-hide img{
 	width: 63px;
@@ -140,6 +142,10 @@
 	line-height: 75px;
 	font-size: 14px;
 	margin-left: 41px;
+}
+.main .nav .nav-item .active{
+	color: #333;
+	font-weight: 800;
 }
 .main .nav .nav-item a{
 	color: #757575;
