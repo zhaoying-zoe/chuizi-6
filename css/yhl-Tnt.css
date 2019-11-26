@@ -36,6 +36,7 @@
 		background-image: url(../images/yhl//【锤子商城】坚果TNT-概览/top.png);
 		background-repeat: no-repeat;
 		background-size:100% 100%;
+		
 		position: absolute;
 		top:0px;
 		/*line-height: 100px;*/
@@ -45,9 +46,10 @@
 		height: 40px;
 		background-image: url(../images/yhl//【锤子商城】坚果TNT-概览/down.png);
 		background-repeat: no-repeat;
-		background-size:100% 100%;
 		position: absolute;
 		bottom: 0px;
+		background-size:100% 100%;
+		
 	}
 	.top .logo{
 		width: 40px;

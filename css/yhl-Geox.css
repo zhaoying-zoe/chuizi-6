@@ -53,6 +53,13 @@
 		right: 26px;
 		transform: scale(0.5);
 	}
+	.up .i-left a{
+			width: 36px;
+			height: 36px;
+			background-color: red;
+			display: block;
+			opacity: 0;
+	}
 
 	.up .i-right{
 		width: 36px;
