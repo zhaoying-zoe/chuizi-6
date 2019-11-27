@@ -191,7 +191,7 @@
 	.focus .container .search-list .search-item{
 		float: left;
 		line-height: 58px;
-		margin: 0px 20px;
+		margin: 0px 22px;
 		position: relative;
 	}
 	.focus .container .search-list .search-item:nth-child(1) a:after{
