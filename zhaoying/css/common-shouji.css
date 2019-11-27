@@ -18,6 +18,13 @@ a{
 	color: #bfbfc0;
 	font-size: 11px;
 }
-a:huver{
+a:hover{
 	color: #5079d9;
+}
+.active:hover{
+	box-shadow: 0 5px 30px rgba(0,0,0,0.2);
+	transform: translateZ(-2px);
+}
+.active{
+	transform: all 1s;
 }
