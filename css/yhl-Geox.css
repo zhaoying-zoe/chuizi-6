@@ -54,11 +54,18 @@
 		transform: scale(0.5);
 	}
 	.up .i-left a{
-			width: 36px;
-			height: 36px;
-			background-color: red;
-			display: block;
-			opacity: 0;
+		width: 36px;
+		height: 36px;
+		background-color: red;
+		display: block;
+		opacity: 0;
+	}
+	.up .i-right a{
+		width: 36px;
+		height: 36px;
+		background-color: red;
+		display: block;
+		opacity: 0;
 	}
 
 	.up .i-right{
@@ -156,13 +163,95 @@
 	}
 
 /*头部部分结束*/
+/*主要部分*/
 	.section{
 		width: 100%;
-		height: 1901px;
-		background-color: #ededed;
+		/*height: 1901px;
+*/		background-color: #ededed;
 	}
+	.section .section-up{
+		width: 100%;
+		height: 61px;
+		line-height: 61px;
+		overflow: hidden;
+
+	}
+	.section .section-up .s-list{
+		float: left;
+		position: relative;
+		margin-right: 41px;
+	}
+	
+	.section .section-up .s-list:nth-child(1){
+		margin-left: 8px;
+	}
+	.section .section-up .s-list a:before{
+		content: "";
+		width: 2px;
+		height: 2px;
+		background-color: #c7c7c7;
+		position: absolute;
+    	display:block;
+    	top: 50%;
+    	left: -19px;
+	}
+	.section .section-up .s-list a:hover{
+		color: #5683ea;
+	}
+	.section .section-down{
+		width: 100%;
+		height: 2178px;
+		border: 1px solid #dbdbdb;
+		border-radius: 5px;
+		background-color: red;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+	.section .section-down .s-w-item{
+		width: 244px;
+		height: 364px;
+		box-sizing: border-box;
+		border-bottom: 1px solid #dbdbdb;
+		border-right: 1px solid #dbdbdb;
+		background-color: white;
+		float: left;
+		text-align: center;
+		padding: 20px;
+	}
+	.section .section-down .s-w-item div:nth-child(1) img{
+		width: 204px;
+		height: 204px;
+
+	}
+	.section .section-down .s-w-item:nth-child(2) a{
+		text-overflow: ellipsis;
+		line-height: 10px;
+		word-wrap: normal;
+		font-size: 10px;
+		overflow: hidden;
+		width: 100px;
+
+	}
+	.section .section-down .s-w-item:nth-child(5){
+		border-right: none;
+	}
+	.section .section-down .s-w-item:nth-child(10){
+		border-right: none;
+	}
+	.section .section-down .s-w-item:nth-child(15){
+		border-right: none;
+	}
+	.section .section-down .s-w-item:nth-child(20){
+		border-right: none;
+	}
+	.section .section-down .s-w-item:nth-child(25){
+		border-right: none;
+	}
+/*主要结束*/
+/*底部部分*/
 	.footer{
 		width: 100%;
 		height: 355px;
 		background-color: #fafafa;
 	}
+/*底部结束
