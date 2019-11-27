@@ -3,6 +3,16 @@
 	color: #333;
 	font-weight: bolder;
 }
+.notes{
+	width: 304px;
+	height: 402px;
+	float: left;
+	/*background: red;*/
+	border-bottom: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
+	box-sizing: border-box;
+	position: relative;
+}
 /*公共样式结束*/
 /*头部开始*/
 .top{
@@ -126,8 +136,9 @@
 /*主要开始*/
 .main{
 	width: 100%;
-	height: 1379px;
+	height: 1455px;
 	background: #e5e5e5;
+	/*margin-bottom: 41px;*/
 }
 .main .nav{
 	width: 100%;
@@ -173,6 +184,7 @@
 	position: absolute;
 	top: 0px;
 	left: 0px;
+	cursor: pointer;
 }
 .main .content .content-list .img2{
 	animation: aaa 4s ease 6s infinite;
@@ -193,11 +205,114 @@
 .main .content .content-list-2{
 	width: 1219px;
 	height: 803px;
-	background: orange;
+	background: #fff;
 	margin: 0px auto;
 	border: 1px solid #dbdbdb;
 	border-radius: 7px;
 	border-bottom: 41px;
+	box-sizing: border-box;
+}
+.main .content .content-list-2 .notes-app{
+	width: 100%;
+	height: 215px;
+	text-align: center;
+	font-size: 10px;
+	margin-top: 91px;
+	color: #bdbdbd;
+	position: relative; 
+}
+.main .content .content-list-2 .notes:hover .second-notes{
+	display: block;
+}
+.main .content .content-list-2 .notes-app img{
+	height: 78px;
+	margin-bottom: 40px;
+}
+.main .content .content-list-2 .notes-app h3{
+	height: 21px;
+	margin-bottom: 20px;
+	color: #999;
+}
+.main .content .content-list-2 .notes-app p{
+	height: 24px;
+}
+.main .content .content-list-2 .content-icon{
+	height: 34px;
+	width: 100%;
+	/*line-height: 34px;*/
+	text-align: center;
+	margin-top: 15px;
+}
+.main .content .content-list-2 .notes-app span img{
+	width: 16px;
+	height: 16px;
+	margin-right: 20px;
+
+}
+.main .content .content-list-2 .notes-app .android-icon:before{
+	content:'|';
+	width: 1px;
+	height: 8px;
+	color: #bdbdbd;
+	position: absolute;
+	right:162px; 
+}
+.main .content .content-list-2 .second-notes{
+	width: 100%;
+	height: 402px;
+	display: none;
+	background: #fff;
+	border-bottom: 1px solid #dbdbdb;
+	/*border-right: 1px solid #dbdbdb;*/
+	border-top-left-radius: 7px;
+	box-sizing: border-box;
+	position: absolute;	
+	top: 0px;
+	float: left;
+	z-index: 3;
+}
+.main .content .content-list-2 .second-notes .input{
+	width: 210px;
+	height: 50px;
+	display: block;
+	line-height: 50px;
+	background: #658ee1;
+	border-top: 1px solid #527ed9;
+	border-radius: 7px;
+	color: #fff;
+}
+.main .content .content-list-2 .second-notes .input:hover{
+	background:#567cc9;
+}
+.main .content .content-list-2 .second-notes .notes-input{
+	position: absolute;
+	top: 114px;
+	left: 47px;
+	text-align: center;
+}
+.main .content .content-list-2 .second-notes .notes-input2{
+	position: absolute;
+	top: 184px;
+	left: 47px;
+	text-align: center;
+}
+.main .content .content-list-2 .second-notes .notes-text{
+	position: absolute;
+	top: 272px;
+	left: 82px;
+	color: #6e95f3;
+}
+.main .content .content-list-2 li:nth-child(4){
+	border-right: none;
+}
+.main .content .content-list-2 li:nth-child(5){
+	border-bottom: none;
+}
+.main .content .content-list-2 li:nth-child(6){
+	width: 913px;
+	height: 401px;
+	background: green;
+	float: left;
 }
 /*主要结束*/
 /*底部开始*/
