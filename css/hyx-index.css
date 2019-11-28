@@ -70,7 +70,8 @@
     	border-right: none;
     } 
     .goods .shopping .bd-item:nth-child(1){
-    	width: 608px;	
+    	padding: 0px;
+    	width: 608px;
     }
     /*商品名，介绍，价格*/
 	.goods .bd-item h3{
@@ -159,7 +160,7 @@
 	.shoppinglist{
 		width: 100%;
 		background-color: #fff;
-		/*box-shadow: 1px 4px 10px 1px rgba(0,0,0,0.5);*/
+		box-shadow: 10px 10px  20px green;
 		z-index: 20;
 	}
 	.shoppinglist .s-list{
@@ -241,17 +242,21 @@
 	}
 	.focus .container .f-ad{
 		margin-top: 25px;
-		border: 1px solid #dbdbdb;
+		/*border: 1px solid #dbdbdb;
 		border-radius: 6px;
-		box-sizing: border-box;
+		box-sizing: border-box;*/
 	}
 	.focus .container .ad-item img{
 		float: left;
-		width: 304px;
+		width: 305px;
 		height: 202px;
+		border: 1px solid #dbdbdb;
+		border-left: none;
+		box-sizing: border-box;
 	}
 	.focus .container .ad-item:first-child img{
 		border-radius: 6px 0px 0px 6px;
+		border-left: 1px solid #dbdbdb;
 	}
 	.focus .container .ad-item:last-child img{
 		border-radius: 0px 6px 6px 0px;
