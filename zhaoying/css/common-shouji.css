@@ -17,13 +17,15 @@ a{
 	text-decoration: none;
 	color: #bfbfc0;
 	font-size: 11px;
+	transition: all 0.2s;
 }
 a:hover{
 	color: #5079d9;
 }
 .active:hover{
-	box-shadow: 0 5px 30px rgba(0,0,0,0.2);
-	transform: translateZ(-2px);
+	/*box-shadow: 0px 0px 30px red;*/
+	/*transform: translateZ(1000px);*/
+	padding-color: red;
 }
 .active{
 	transform: all 1s;

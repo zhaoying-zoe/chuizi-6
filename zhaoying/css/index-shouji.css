@@ -68,7 +68,6 @@
 		right: 20px;
 		border-radius: 8px;
 		text-align:center;
-		/* transition: all 10s; */
 		border: 1px solid #bcbcbc;
 		padding-top: 70px;
 		box-sizing: border-box;
@@ -298,7 +297,89 @@
 /*footer头部*/
 	.footer{
 		height: 355px;
-		background: pink;
+		background: #fafafa;
 		width: 100%;
+	}
+	.footer .container .footer-top{
+		height: 225px;
+	}
+	.footer .container .footer-top dl{
+		display: block;
+		float: left;
+		margin-right: 90px;
+		margin-top: 58px;
+	}
+	.footer .container .footer-top dt{
+		margin-bottom: 19px;
+		font-size: 11px;
+		font-weight: 900;
+		color: #646464;
+	}
+	.footer .container .footer-top dd{
+		margin-bottom: 5px;
+	}
+	.footer .container .footer-top dd a{
+		color: #969696;
+	}
+	.footer .container .footer-top dd a:hover{
+		color:#5683ea;
+	}
+	.footer .container .footer-top .footer-top-2{
+		float: right;
+	}
+	.footer .container .footer-top .footer-top-2 .num{
+		font-size: 18px;
+		font-weight: 700;
+		margin-top: 60px;
+		color: #5079d9;
+	}
+	.footer .container .footer-top .footer-top-2 .date{
+		font-size: 11px;
+		color: #999;
+		margin-top: 10px;
+		text-align: right;
+	}
+	.footer .container .footer-top .footer-top-2 .huafei{
+		font-size: 11px;
+		color: #999;
+		text-align: right;
+	}
+	.footer .container .footer-top .footer-top-2 .help{
+		font-size: 11px;
+		margin-left: 14px;
+		width: 132px;
+		height: 28px;
+		border: 1px solid #d0d0d0;
+		border-radius: 5px;
+		margin-top: 10px;
+		text-align: center;
+		line-height: 28px;
+		font-weight: 700;
+	}
+	.footer .container .footer-top .footer-top-2 .help a,
+	.footer .container .footer-top .footer-top-2 .help i{
+		color: #5079d9;
+		cursor: pointer;
+	}
+	.footer .container .footer-bottom{
+		width: 1222px;
+		border-top: 1px solid #e6e6e6;
+	}
+	.footer .container .footer-bottom li{
+		float: left;
+		margin-top: 27px;
+		font-size: 11px;
+		color: #bdbdbd;
+		margin-right: 10px;
+		border-right: 1px solid #bdbdbd;
+		padding-right: 10px;
+	}
+	.footer .container .footer-bottom li:nth-child(3){
+		border-right: none;
+	}
+	.footer .container .footer-bottom div{
+		margin-top: 10px;
+		font-size: 11px;
+		color: #bdbdbd;
 	}
 /*footer尾部*/
