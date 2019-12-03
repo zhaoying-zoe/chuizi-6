@@ -8,8 +8,8 @@
 	height: 402px;
 	float: left;
 	/*background: red;*/
-	border-bottom: 1px solid #dbdbdb;
-	border-right: 1px solid #dbdbdb;
+	border-bottom: 1px solid #f5f5f5;
+	border-right: 1px solid #f5f5f5;
 	box-sizing: border-box;
 	position: relative;
 }
@@ -172,10 +172,8 @@
 	width: 1220px;
 	height: 501px;
 	margin: 25px 342px 10px 342px;
-	/*background: pink;*/
 	border-radius: 7px;
 	position: relative;
-	/*animation: aa 2s ease 0s infinite;*/
 }
 .main .content .content-list img{
 	width: 100%;
@@ -207,7 +205,7 @@
 	height: 803px;
 	background: #fff;
 	margin: 0px auto;
-	border: 1px solid #dbdbdb;
+	border: 1px solid #f5f5f5;
 	border-radius: 7px;
 	border-bottom: 41px;
 	box-sizing: border-box;
@@ -239,9 +237,10 @@
 .main .content .content-list-2 .content-icon{
 	height: 34px;
 	width: 100%;
-	/*line-height: 34px;*/
 	text-align: center;
 	margin-top: 15px;
+	position: absolute;
+	left: 12px;
 }
 .main .content .content-list-2 .notes-app span img{
 	width: 16px;
@@ -270,6 +269,21 @@
 	top: 0px;
 	float: left;
 	z-index: 3;
+}
+.main .content .content-list-2 .second-notes .note-erweima{
+	position: absolute;
+	top: 70px;
+	left: 50%;
+	margin-left: -55px;
+}
+.main .content .content-list-2 .second-notes .notes-note{
+	text-align: center;
+	font-size: 14px;
+	color: #757575;
+	position: absolute;
+	top: 222px;
+	left: 50%;
+	margin-left: -70px;
 }
 .main .content .content-list-2 .second-notes .input{
 	width: 210px;
@@ -311,14 +325,117 @@
 .main .content .content-list-2 li:nth-child(6){
 	width: 913px;
 	height: 401px;
-	background: green;
+	/*background: green;*/
 	float: left;
+}
+.main .content-notes{
+	position: relative;
+}
+.main .content-notes .content-img{
+	position: absolute;
+	top: 153px;
+	left: 298px;
+}
+.main .content-notes .content-p1{
+	color: #999;
+	font-size: 14px;
+	position: absolute;
+	top: 167px;
+	left: 383px;
+}
+.main .content-notes .content-p2{
+	color: #bdbdbd;
+	font-size: 12px;
+	position: absolute;
+	left: 383px;
+	top: 197px;
 }
 /*主要结束*/
 /*底部开始*/
 .footer{
 	width: 100%;
 	height: 343px;
-	background: purple;
+	background: #fafafa;
 }
-/*底部结束*/
+.footer .container{
+	width: 1221px;
+	height: 342px;
+	margin: 0px auto;
+}
+.footer .container .footer-top{
+	width: 100%;
+	height: 215px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.footer .container .footer-top .ft dl{
+	float: left;
+	margin-right: 100px;
+	margin-top: 60px;
+	font-size: 11px;
+}
+.footer .container .footer-top .ft dl dt{
+	color: #646464;
+	margin-bottom: 29px;
+	font-weight: bold;
+}
+.footer .container .footer-top .ft dl dd{
+	color: #969696;
+	margin-bottom: 17px;
+}
+.footer .container .footer-top .ft dl dd:hover{
+	color: #5079d9;
+	cursor: pointer;
+}
+.footer .container .ft-right{
+	float: right;
+	text-align: right;
+	margin-top: 61px;
+	position: relative;
+}
+.footer .container .ft-right h2{
+	color: #5079d9;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 11px;
+}
+.footer .container .ft-right .ft-p2{
+	font-size: 11px;
+	color: #999;
+	margin-bottom: 2px;
+}
+.footer .container .ft-right .ft-p3{
+	font-size: 11px;
+	color: #999;
+	margin-bottom: 19px;
+}
+.footer .container .ft-right .ft-a{
+	width: 134px;
+	height: 32px;
+	border: 1px solid #d0d0d0;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 11px;
+	position: absolute;
+	right: 0px;
+}
+.footer .container .ft-right .ft-a:hover{
+	background: #f5f5f5;
+	cursor: pointer;
+}
+.footer .container .ft-right .ft-a a{
+	color: #5079d9;
+	font-weight: bolder;
+}
+.footer .container .ft-right .ft-a img{
+	vertical-align: -1px;
+	margin-right: 4px;
+}
+.footer .container .footer-bottom{
+	width: 100%;
+	height: 128px;
+}
+.footer .container .footer-bottom .footer-item{
+	float: left;
+}
+/*底部结束
