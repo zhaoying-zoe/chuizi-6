@@ -3,6 +3,11 @@
 	color: #333;
 	font-weight: bolder;
 }
+.actives{
+	background: #dcdcdc;
+	width: 10px;
+	height: 10px;
+}
 .notes{
 	width: 304px;
 	height: 402px;
@@ -164,10 +169,6 @@
 .main .nav .nav-item a:hover{
 	color: #333;
 }
-.main .nav .nav-item a:focus{
-	/*color: #333;*/
-	/*font-weight: bold;*/
-}
 .main .content .content-list{
 	width: 1220px;
 	height: 501px;
@@ -179,15 +180,15 @@
 	width: 100%;
 	height: 100%;
 	border-radius: 7px;
-	position: absolute;
-	top: 0px;
-	left: 0px;
 	cursor: pointer;
 }
 .main .content .content-list .img2{
 	animation: aaa 4s ease 6s infinite;
 	animation-fill-mode: both;
 	animation-direction:alternate;
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }
 @keyframes aaa{
 	0%{
@@ -199,6 +200,23 @@
 	100%{
 		opacity: 1;
 	}
+}
+.main .content .content-button{
+	position: relative;
+	bottom: 66px;
+	left: 50%;
+}
+.main .content .content-button:hover{
+	cursor: pointer;
+}
+.main .content .content-button .content-btn{
+	width: 9px;
+	height: 9px;
+	background: #858585;
+	border-radius: 50%;
+	z-index: 99;
+	float: left;
+	margin-right: 8px;
 }
 .main .content .content-list-2{
 	width: 1219px;
@@ -434,8 +452,33 @@
 .footer .container .footer-bottom{
 	width: 100%;
 	height: 128px;
+	position: relative;
 }
 .footer .container .footer-bottom .footer-item{
 	float: left;
+	color: #bdbdbd;
+	margin: 31px 0px 12px 0px;
+	margin-right: 10px;
+
+}
+.footer .container .footer-bottom li:first-child{
+	font-size: 8px;
+	color: #bdbdbd;
+	line-height: 24px;
+}
+.footer .container .footer-bottom .footer-item  a{
+	font-size: 12px;
+	color: #bdbdbd;
+	margin-left: 10px;
+}
+.footer .container .footer-bottom .footer-item a:hover{
+	color: #5079d9;
+}
+.footer .container .footer-bottom .ft-font{
+	position: absolute;
+	top: 56px;
+	left: 0px;
+	color: #bdbdbd;
+	font-size: 8px;
 }
 /*底部结束
