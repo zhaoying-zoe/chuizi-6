@@ -1,4 +1,4 @@
-/*top开头*/
+top开头*/
 	.top{
 		height: 45px;
 		width: 100%;
@@ -102,13 +102,13 @@
 /*focus结尾*/
 /*main开头*/
 	.main{
-		height: 7427px;
+		/*height: 7427px;*/
 		background: #fff;
 	}
 	.main .container{
 		margin-left: auto;
 		margin-right: auto;
-		width: 1220px;
+		width: 1903px;
 	}
 	.main .product-top{
 		height: 235px;
@@ -129,6 +129,7 @@
 		/*background: red;*/
 		border: 1px solid #e5e5e5;
 		border-radius: 10px;
+		cursor: pointer;
 	}
 	.main .product-middle .xinpin-img{
 		width: 609px;
@@ -191,7 +192,6 @@
 		color: #999;
 	}
 	.main .product-middle .goods .product-buy{
-		cursor: pointer;
 		background: #5e8bf2;
 		width: 120px;
 		text-align: center;
@@ -211,6 +211,7 @@
 		height: 1246px;
 		margin-top: 10px;
 	}
+	/*
 	.main .product-bottom .product-list .product-item{
 		width: 400px;
 		height: 618px;
@@ -221,6 +222,7 @@
 		background: #ff6700;
 		margin-top: 10px;
 	}
+	*/
 	.main .product-bottom .product-list .product-item:nth-child(1){
 		margin-left: 0px;
 		margin-top: 0px;
@@ -233,6 +235,65 @@
 	}
 	.main .product-bottom .product-list .product-item:nth-child(4){
 		margin-left: 0px;
+	}
+	.main .product-bottom .product-list .product-item .product-m-img{
+		margin-top: 60px;
+		margin-left: 90px;
+	}
+	.main .miaosha{
+		width: 1220px;
+		height: 853px;
+		margin-top: 75px;
+	}
+	.yexin{
+		width: 1220px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.main .miaosha .product-m-top{
+		width: 100%;
+		height: 234px;
+		text-align: center;
+	}
+	.main .miaosha .product-m-top .product-m-name{
+		font-size: 34px;
+		color: #333;
+		padding-top: 70px;
+		font-weight: bold;
+	}
+	.main .miaosha .product-m-top .product-m-date{
+		font-size: 16px;
+		color: #999999;
+		margin-top: 30px;
+	}
+	.main .miaosha .product-m-bottom{
+		width: 100%;
+		height: 619px;
+	}
+	.main .miaosha .product-m-bottom .product-m-list .product-item{
+		/*width: 400px;
+		height: 619px;
+		background: blue;
+		float: left;
+		margin-left: 10px;*/
+		margin-top: 0px;
+	}
+	.main .miaosha .product-m-bottom .product-m-list .product-item:nth-child(1){
+		margin-left: 0px;
+	}
+	.main .miaosha .product-m-bottom .product-m-list .product-item .product-m-img{
+		margin-top: 70px;
+		margin-left: 60px;
+	}
+	.main .container .xinpin{
+		width: 1220px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.main .container .miaosha{
+		width: 1220px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 /*main结尾*/
 /*footer开头*/
@@ -323,4 +384,4 @@
 		font-size: 11px;
 		color: #bdbdbd;
 	}
-/*footer结尾*/
+/*footer结尾

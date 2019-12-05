@@ -21,3 +21,124 @@ a{
 a:hover{
 	color: #5079d9;
 }
+.manjian:before{
+	content: '满减';
+	font-size: 11px;
+	color: #cc3e39;
+	width: 40px;
+	height: 20px;
+	border: 1px solid #f0948d;
+	border-radius: 5px;
+	background: #ffe7e5;
+	text-align: center;
+	line-height: 20px;
+	position: absolute;
+	top: 22px;
+	right: 22px;
+}
+.jinitian:before{
+	content: '仅一天';
+	font-size: 11px;
+	color: #cc3e39;
+	width: 40px;
+	height: 20px;
+	border: 1px solid #f0948d;
+	border-radius: 5px;
+	background: #ffe7e5;
+	text-align: center;
+	line-height: 20px;
+	position: absolute;
+	top: 22px;
+	right: 22px;
+}
+/*公共样式*/
+	.main .container .product-bottom .product-list .product-item-m{
+		width: 297px;
+		height: 510px;
+	}
+	.product-item{
+		position: relative;
+		cursor: pointer;
+		width: 400px;
+		height: 618px;
+		float: left;
+		border: 1px solid #e5e5e5;
+		margin-left: 10px;
+		box-sizing: border-box;
+		border-radius: 5px;
+		margin-top: 10px;
+	}
+	.product-item .rad{
+		position: absolute;
+		top: 413px;
+		left: 195px;
+	}
+	.product-item .product-name{
+		margin-top: 20px;
+		margin-left: 40px;
+		width: 340px;
+		white-space:nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		font-size: 18px;
+	}
+	.product-item .product-des{
+		margin-top: 10px;
+		text-align: center;
+		font-size: 12px;
+	}
+	.product-item .product-price{
+		margin-top: 60px;
+		text-align: center;
+		font-size: 17px;
+		color: #d44d44;
+		font-weight: bold;
+	}
+	.product-item .product-buy{
+		text-align: center;
+		font-size: 18px;
+		color: #fff;
+		width: 120px;
+		height: 40px;
+		margin: 20px auto 0px;
+		background: #517bef;
+		line-height: 40px;
+		border-radius: 5px;
+		font-weight: bold;
+	}
+	.product-price del{
+		font-size: 13px;
+		color: #999;
+
+	}
+	.product-price span{
+		font-size: 12px;
+		color: #d44d44;
+	}
+	/*每个区域设置下滑线*/
+	.main .container .line1{
+		width: 1903px;
+		height: 2061px;
+		border-bottom: 1px solid #e3e3e3;
+	}
+	.main .container .line2{
+		width: 1903px;
+		height: 928px;
+		border-bottom: 1px solid #e3e3e3;
+	}
+	.main .container .line3{
+		width: 1903px;
+		height: 1798px;
+		border-bottom: 1px solid #e3e3e3;
+	}
+	.main .container .line4{
+		width: 1903px;
+		height: 1798px;
+		border-bottom: 1px solid #e3e3e3;
+	}
+	.main .container .line5{
+		width: 1903px;
+		height: 843px;
+		border-bottom: 1px solid #e3e3e3;
+	}
+/*公共样式*/
