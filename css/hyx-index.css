@@ -60,6 +60,29 @@
 			text-align: center;
 			border-right: 1px solid #e3e3e3;
 		}
+		.shopping .bd-item .tag{
+			position: absolute;
+    		top: 10px;
+    		right: 10px;
+		}
+		.shopping .bd-item .tag .tag-type{
+			display: inline-block;
+    		padding: 0 10px;
+   			font-size: 12px;
+   			font-weight: bold;
+   			line-height: 18px;
+   			border-radius: 13px;
+		}
+		.shopping .bd-item .tag .tag-red{
+			color: #d03b34;
+   			background: #ffe7e5;
+    		border:1px solid #f3938b;	
+		}
+		.shopping .bd-item .tag .tag-yellow{
+			color: #a06e37;
+    		background: #fffbdf;
+    		border:1px solid #d5b480;
+		}
 		.shopping .bd-item img{
 			margin-top: 25px;
 		}
@@ -68,6 +91,9 @@
 		}
 		.shopping .first-item{
 			width: 609px;
+		}
+		.shopping .first-item img{
+			width: 100%;
 		}
 		.shopping .bottom-item{
 			border-bottom: 1px solid #e3e3e3;
