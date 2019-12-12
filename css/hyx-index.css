@@ -339,8 +339,90 @@
 	.goods .shopping .gh-btn div i{
 		font-size: 23px;
 	}
-footer{
-	width: 100%;
-	height: 355px;
-	background-color: tomato;
-}
+/*底部*/
+	footer{
+		width: 100%;
+		height: 355px;
+		background-color: #fff;
+	}
+	footer .footertop{
+		padding: 60px 0 55px; 
+	}
+	footer .f-txt{
+		margin-top: 15px;
+		font-size: 12px;
+	}
+	footer .footer-lis{
+		float: left;
+		margin-right: 90px;
+	}
+	footer .footer-lis dt{
+		padding: 0 0 20px;
+		color: #646464;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	footer .footer-lis dd{
+		padding-bottom: 7px;
+	}
+	footer .footer-right{
+		float: right;
+		text-align: right;
+	}
+	footer .footer-right .tel{
+		font-size: 18px;
+	    font-weight: bolder;
+	    cursor: default;
+	    color: #5079d9;
+	}
+	footer .footer-right .tim{
+		margin-top: 15px;
+	    color: #999;
+	}
+	footer .footer-right .tips{
+		margin-top:0px;
+	    color: #999;
+	}
+	footer .footer-right .help{
+		float: right;
+		margin-top: 15px;
+		display: block;
+	    width: 132px;
+	    height: 30px;
+	    text-align: center;
+	    background: #fcfcfc;
+	    cursor: pointer;  
+	    border: 1px solid #d0d0d0;
+	    border-radius: 5px;
+	    box-sizing: border-box;
+	}
+	footer .footer-right .help a{
+		margin-top: 0px; 
+		line-height: 30px; 
+	    font-weight: bold;   
+	    color: #5079d9;
+	}
+	footer .footer-right .help span{
+		margin-right: 5px;
+	}
+	footer .footerinfo{
+		border-top: 1px solid #d0d0d0;
+		padding: 30px 0 60px;
+		font-size: 12px;
+	}
+	footer .footerinfo a:hover{
+		color: #5079d9;
+	}
+	footer .footerinfo .copyright li{
+		color: #a5a5a6;
+		float: left;
+		padding-right: 10px;
+	}
+	footer .footerinfo .copyright li a{
+		line-height: 12px;
+		padding-left: 10px;
+		border-left: 1px solid #ccc;
+	}
+	footer .footerinfo .icp{
+		margin-top: 10px;
+	}
