@@ -1,0 +1,186 @@
+/*公共样式开始*/
+.active{
+	color: #333;
+	font-weight: bolder;
+}
+/*公共样式结束*/
+/*头部开始*/
+.top{
+	width: 100%;
+	height: 45px;
+	background: #232426;
+	position: relative;
+}
+.top .top-lcon img{
+	position: absolute;
+	top: 13px;
+	left: 20px;
+}
+.top .sercive{
+	position: absolute;
+	left: 295px;
+	line-height: 45px;
+}
+.top .sercive li a:hover{
+	color: #e5e5e5;
+}
+.top .sercive .sercive-item{
+	float: left;
+	margin-right: 39px;
+}
+.top .sercive .sercive-item a{
+	font-size: 12px;
+	color: #bebfc0;
+}
+.top .sercive .sercive-item a:last-child:hover .hide{
+	display: block;
+}
+.top .sercive .sercive-item .hide{
+	width: 137px;
+	height: 183px;
+	border: 1px solid #dfdfdf;
+	border-radius: 10px;
+	background: #fff;
+	position: relative;
+	display: none;
+	z-index: 1;
+}
+.top .sercive .sercive-item .hide img{
+	width: 112px;
+	height: 105px;
+	position: absolute;
+	top: 17px;
+	left: 13px;
+}
+.top .sercive .sercive-item .hide .hide-text{
+	color: #808080;
+	position: absolute;
+	left: 10px;
+	bottom: 15px;
+	font-size: 14px;
+}
+.top .sercive .sercive-item .hide .hide-text2{
+	color: #c1c1c1;
+	position: absolute;
+	left: 26px;
+	bottom: -5px;
+	font-size: 11px;
+}
+.top .aside{
+	float: right;
+}
+.top .aside i{
+	font-size: 14px;
+	color: #a3a3a4;
+	position: absolute;
+	top: 15px;
+	right: 60px;
+}
+.top .aside .cart img{
+	width: 14px;
+	height: 16px;
+	margin-left: 24px;
+	background: #a3a3a4;
+	position: absolute;
+	top: 14px;
+	right: 22px;
+}
+.top .aside .cart:hover .cart-hide{
+	display: block;
+}
+.top .aside .cart .cart-hide{
+	width: 362px;
+	height: 316px;
+	border: 1px solid #dfdfdf;
+	border-radius: 5px;
+	position: relative;
+	top: 48px;
+	right: 20px;
+	background: #fff;
+	display: none;
+	z-index: 2;
+}
+.top .aside .cart .cart-hide img{
+	width: 63px;
+	height: 63px;
+	position: absolute;
+	top: 91px;
+	left: 125px;
+}
+.top .aside .cart .cart-hide .cart-hide-text{
+	font-size: 18px;
+	color: #333;
+	position: absolute;
+	bottom: 116px;
+	left: 140px;
+	font-weight:bold;;
+}
+.top .aside .cart .cart-hide .cart-hide-text2{
+	font-size: 13px;
+	color: #bebfc0;
+	position: absolute;
+	bottom: 94px;
+	left: 54px;
+}
+/*头部结束*/
+/*主要开始*/
+.main{
+	width: 100%;
+	height: 1455px;
+	background: #e5e5e5;
+}
+.main .nav{
+	width: 100%;
+	height: 75px;
+	background: #fff;
+}
+.main .nav ul{
+	padding-left: 119px;	
+}
+.main .nav .nav-item{
+	float: left;
+	line-height: 75px;
+	margin-left: 41px;
+}
+.main .nav .nav-item .active{
+	color: #333;
+	font-weight: 800;
+}
+.main .nav .nav-item a{
+	color: #757575;
+	font-size: 14px;
+}
+.main .nav .nav-item a:hover{
+	color: #333;
+}
+.main .nav .language{
+	float: right;
+	margin-right: 180px;
+	position: relative;
+}
+.main .nav .language:hover{
+	cursor: pointer;
+}
+.main .nav .language-yc{
+	/*display: none;*/
+}
+.main .nav .language .language-img{
+	display: block;
+}
+.main .nav .language:hover .language-yc{
+	display: block;
+}
+.main .nav .language .language-yc .china{
+	display: block;x`
+}
+.main .nav .language .language-text{
+	line-height: 75px;
+	font-size: 14px;
+	color: #757575;
+}
+.main .nav .language img{
+	position: absolute;
+	top: 36px;
+	left: 77px;
+}
+/*主要结束*/
