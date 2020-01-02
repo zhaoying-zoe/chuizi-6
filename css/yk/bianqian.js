@@ -12,3 +12,13 @@ for(var i =0;i<aBtn.length;i++){
 	}
 		
 }
+
+//购物车鼠标移入
+var Ocart = document.querySelector('.cart')
+var oCartHide = document.querySelector('.cart-hide')
+Ocart.onmouseenter = function(){
+	oCartHide.style.display = 'block'
+}
+Ocart.onmouseleave = function(){
+	oCartHide.style.display = 'none'
+}

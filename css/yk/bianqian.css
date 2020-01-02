@@ -133,6 +133,7 @@
 	width: 100%;
 	height: 75px;
 	background: #fff;
+	position: relative;
 }
 .main .nav ul{
 	padding-left: 119px;	
@@ -155,32 +156,68 @@
 }
 .main .nav .language{
 	float: right;
-	margin-right: 180px;
+	margin-right: 178px;
 	position: relative;
+	top: 0px;
+	right: 0px;
 }
 .main .nav .language:hover{
 	cursor: pointer;
 }
 .main .nav .language-yc{
-	/*display: none;*/
+	position: relative;
+	top: -1px;
+	left: -123px;
+	width: 200px;
+	height: 100px;
+	border: 1px solid #e4e4e4;
+	background: #fff;
+	border-radius: 10px;
+	font-size: 12px;
+	color: #666;
+	display: none;	
 }
-.main .nav .language .language-img{
+/*.main .nav .language .language-img{
 	display: block;
-}
-.main .nav .language:hover .language-yc{
-	display: block;
-}
-.main .nav .language .language-yc .china{
-	display: block;x`
-}
+}*/
+
 .main .nav .language .language-text{
 	line-height: 75px;
-	font-size: 14px;
 	color: #757575;
 }
-.main .nav .language img{
+.main .nav .language .china{
+	height: 49px;
+	line-height: 55px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.main .nav .language .china span{
+	position: absolute;
+	left: 78px;
+}
+.main .nav .language .china .china-flag{
+	position: absolute;
+	left: 35px;	
+	top: 21px;
+}
+.main .nav .language .china .success{
+	position: absolute;
+	top: 21px;
+	right: 20px;
+}
+
+.main .nav .language .usa .usa-flag{
+	position: absolute;
+	left: 35px;	
+	top: 66px;
+}
+.main .nav .language .usa span{
+	position: absolute;
+	left: 78px;	
+	top: 66px;
+}
+.main .nav .language .down{
 	position: absolute;
 	top: 36px;
-	left: 77px;
+	left: 86px;
 }
 /*主要结束*/
