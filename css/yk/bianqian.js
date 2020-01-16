@@ -14,13 +14,14 @@ for(var i =0;i<aBtn.length;i++){
 }
 
 //购物车鼠标移入
-var oCart = document.querySelector('.cart')
-var oCartHide = document.querySelector('.cart-hide')
-var oCartTime = 0
+
 
 function oCartDs(){
+	var oCart = document.querySelector('.cart')
+	var oCartHide = document.querySelector('.cart-hide')
+	var oCartTime = 0
 	oCartTime = setTimeout(function(){
-			oCart.onmouseenter = function(){
+		oCart.onmouseenter = function(){
 			oCartHide.style.display = 'block'
 		}
 		oCart.onmouseleave = function(){
@@ -43,14 +44,14 @@ var oLanguageYc = document.querySelector('.language-yc')
 var oLanguageTime = 0
 clearTimeout(oLanguageTime)
 function oLanguageDs(){
-		oLanguageTime = setTimeout(function(){
-			oLanguage.onmouseenter = function(){
-				oLanguageYc.style.display = 'block'
+	oLanguageTime = setTimeout(function(){
+		oLanguage.onmouseenter = function(){
+			oLanguageYc.style.display = 'block'
 		}
-			oLanguage.onmouseleave = function(){
-				oLanguageYc.style.display = 'none'
+		oLanguage.onmouseleave = function(){
+			oLanguageYc.style.display = 'none'
 		}
-	},500)
+	},1000)
 }
 
 oLanguage.onmouseenter = function(){
