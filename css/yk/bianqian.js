@@ -13,29 +13,23 @@ for(var i =0;i<aBtn.length;i++){
 		
 }
 
+
+
+
+
+oCartDs()
+oLanguageDs()
+
 //购物车鼠标移入
-
-
 function oCartDs(){
 	var oCart = document.querySelector('.cart')
 	var oCartHide = document.querySelector('.cart-hide')
 	var oCartTime = 0
-	oCartTime = setTimeout(function(){
-		oCart.onmouseenter = function(){
-			oCartHide.style.display = 'block'
-		}
-		oCart.onmouseleave = function(){
-			oCartHide.style.display = 'none'
-		}
+	oCart.onmouseenter = function(){
+		animate(oCartHide,{height:316},true)
+	}
+}
 
-	},1000)
-}
-oCart.onmouseenter = function(){
-	clearTimeout(oCartTime)
-}
-oCart.onmouseleave = function(){
-	oCartDs()
-}
 
 
 //切换多种语言鼠标移入
