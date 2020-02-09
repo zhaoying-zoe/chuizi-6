@@ -54,3 +54,31 @@ oLanguage.onmouseenter = function(){
 oLanguage.onmouseleave = function(){
 	oLanguageDs()
 }
+
+
+
+
+//版本下载移入
+var oAndroid = document.querySelector('.android')
+var oIos = document.querySelector('.ios')
+var oEeweima = document.querySelector('.erweima')
+var oSaoma = document.querySelector('.saoma')
+oAndroid.onmouseenter = function(){
+	oAndroid.style.background = '#eee'
+}
+oAndroid.onmouseleave = function(){
+	oAndroid.style.background = '#f9f9f9'
+}
+oIos.onmouseenter = function(){
+	oIos.style.background = '#eee'
+}
+oIos.onmouseleave = function(){
+	oIos.style.background = '#f9f9f9'
+}
+oEeweima.onmouseenter = function(){
+	oSaoma.style.display = 'block'
+	oSaoma.style.zIndex = '5'
+}
+oEeweima.onmouseleave = function(){
+	oSaoma.style.display = 'none'
+}
