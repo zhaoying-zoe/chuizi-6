@@ -128,7 +128,7 @@
 .main{
 	width: 100%;
 	height: 1455px;
-	background: #fafafa;
+	background: #f0f0f0;
 }
 .main .nav{
 	width: 100%;
@@ -406,7 +406,115 @@
 	width: 1220px;
 	height: 324px;
 	margin: auto;
+	margin-top: 80px;
 	/*background: red;*/
+}
+.container .texing .android-tx{
+	float: left;
+	width: 480px;
+	height: 127px;
+}
+.container .texing .android-tx .android-title{
+	width: 480px;
+	height: 39px;
+	border-bottom: 1px solid #eee;
+}
+.container .texing .android-tx .android-title h3{
+	float: left;
+	font-size: 18px;
+	color: #616161;
+}
+.container .texing .android-tx .android-title h6{
+	float: right;
+	color: #bdbdbd;
+	font-size: 12px;
+}
+.container .texing .android-tx .jieshao{
+	float: left;
+	font-size: 12px;
+	color: #999;
+	position: relative;
+	margin-left: 24px;
+}
+.container .texing .android-tx .jieshao li:first-child{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.container .texing .android-tx .jieshao li:first-child:before{
+	content: "";
+	width: 3px;
+	height: 3px;
+	background: #999;
+	position: absolute;
+	top: 32px;
+	left: -12px;
+}
+.container .texing .android-tx .jieshao li:last-child:before{
+	content: "";
+	width: 3px;
+	height: 3px;
+	background: #999;
+	position: absolute;
+	top: 72px;
+	left: -12px;
+}
+.container .texing .ios-tx{
+	float: right;
+	width: 480px;
+	height: 163px;
+}
+.container .texing .ios-tx .ios-title{
+	width: 480px;
+	height: 39px;
+	border-bottom: 1px solid #eee;
+}
+.container .texing .ios-tx .ios-title h3{
+	float: left;
+	font-size: 18px;
+	color: #616161;
+}
+.container .texing .ios-tx .ios-title h6{
+	float: right;
+	color: #bdbdbd;
+	font-size: 12px;
+}
+.container .texing .ios-tx .ios-jieshao{
+	float: left;
+	font-size: 12px;
+	color: #999;
+	margin-top: 25px;
+	margin-left: 24px;
+	position: relative;
+}
+.container .texing .ios-tx .ios-jieshao li:nth-child(2){
+	margin: 25px 0px;
+}
+.container .texing .ios-tx .ios-jieshao li:nth-child(1):before{
+	content: "";
+	width: 3px;
+	height: 3px;
+	background: #999;
+	position: absolute;
+	top: 7px;
+	left: -12px;
+}
+.container .texing .ios-tx .ios-jieshao li:nth-child(2):before{
+	content: "";
+	width: 3px;
+	height: 3px;
+	background: #999;
+	position: absolute;
+	top: 47px;
+	left: -12px;
+}
+.container .texing .ios-tx .ios-jieshao li:nth-child(3):before{
+	content: "";
+	width: 3px;
+	height: 3px;
+	background: #999;
+	position: absolute;
+	top: 89px;
+	left: -12px;
 }
 /*中底部结束*/
 

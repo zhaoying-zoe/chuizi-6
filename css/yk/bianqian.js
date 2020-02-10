@@ -78,6 +78,7 @@ oIos.onmouseleave = function(){
 oEeweima.onmouseenter = function(){
 	oSaoma.style.display = 'block'
 	oSaoma.style.zIndex = '5'
+	oSaoma.style.background = '#fff'
 }
 oEeweima.onmouseleave = function(){
 	oSaoma.style.display = 'none'
