@@ -286,3 +286,401 @@
 	font-size: 12px;
 	color: #bdbdbd;
 }
+
+.main .reader{
+	width: 100%;
+	height: 677px;
+	border-bottom: 1px solid #dcdcdc;
+	background: #fff;
+}
+.main .reader .content{
+	width: 322px;
+	height: 100px;
+	padding-top: 96px;
+	margin: 0px auto;
+}
+.main .reader .content h2{
+	margin: 0px auto 22px;
+	text-align: center;
+	font-size: 34px;
+	color: #424242;
+}
+.main .reader .content p{
+	color: #bdbdbd;
+	font-size: 14px;
+	text-align: center;
+}
+.main .reader .content .p1{
+	margin-bottom: 5px;
+}
+.main .list{
+	width: 100%;
+	height: 316px;
+	margin-top: 86px;
+	padding-left: 276px;
+	position: relative;
+}
+.main .list span{
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	margin: 0 55px 85px 0;
+	border: 0.5px solid #dde1e3;
+	border-radius: 50%;
+}
+.main .list span:nth-child(1){
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000336.png);
+	background-position: -9px -9px;
+}
+.main .list span:nth-child(1):after{
+	content: '好奇心日报';
+	position: absolute;
+	top: 93px;
+	left: 277px;
+	color: #666;
+	font-size: 14px;
+}
+.main .list span:nth-child(2){
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000336.png);
+	background-position: -132px -9px;
+}
+.main .list span:nth-child(2):after{
+	content: '财富中文网';
+	position: absolute;
+	top: 93px;
+	left: 406px;
+	color: #666;
+	font-size: 14px;
+}
+.main .list span:nth-child(3){
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000336.png);
+	background-position: -251px -9px;
+}
+.main .list span:nth-child(3):after{
+	content: '大象公会';
+	position: absolute;
+	top: 93px;
+	left: 544px;
+	color: #666;
+	font-size: 14px;
+}
+.main .list span:nth-child(4){
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000336.png);
+	background-position: -374px -9px;
+}
+.main .list span:nth-child(4):after{
+	content: '单读';
+	position: absolute;
+	top: 93px;
+	left: 688px;
+	color: #666;
+	font-size: 14px;
+}
+.main .list span:nth-child(5){
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000336.png);
+	background-position: -497px -9px;
+}
+.main .list span:nth-child(5):after{
+	content: '第一财经周刊';
+	position: absolute;
+	top: 93px;
+	left: 790px;
+	color: #666;
+	font-size: 14px;
+}
+.main .list span:nth-child(6){
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000336.png);
+	background-position: -620px -9px;
+}
+.main .list span:nth-child(6):after{
+	content: '果壳';
+	position: absolute;
+	top: 93px;
+	left: 949px;
+	color: #666;
+	font-size: 14px;
+}
+.main .list span:nth-child(7){
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000336.png);
+	background-position: -741px -9px;
+}
+.main .list span:nth-child(7):after{
+	content: '36 氪';
+	position: absolute;
+	top: 93px;
+	left: 1076px;
+	color: #666;
+	font-size: 14px;
+}
+.main .list span:nth-child(8){
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000336.png);
+	background-position: -863px -9px;
+}
+.main .list span:nth-child(8):after{
+	content: '南方人物周刊';
+	position: absolute;
+	top: 93px;
+	left: 1183px;
+	color: #666;
+	font-size: 14px;
+}
+.main .list span:nth-child(10){
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000336.png);
+	background-position: -9px -163px;
+}
+.main .list span:nth-child(10):after{
+	content: '新世相';
+	position: absolute;
+	top: 253px;
+	left: 291px;
+	color: #666;
+	font-size: 14px;
+}
+.main .list span:nth-child(11){
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000336.png);
+	background-position: -132px -163px;
+}
+.main .list span:nth-child(11):after{
+	content: 'PingWest 品玩';
+	position: absolute;
+	top: 253px;
+	left: 393px;
+	color: #666;
+	font-size: 14px;
+}
+.main .list span:nth-child(12){
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000336.png);
+	background-position: -251px -163px;
+}
+.main .list span:nth-child(12):after{
+	content: '人物杂志';
+	position: absolute;
+	top: 253px;
+	left: 543px;
+	color: #666;
+	font-size: 14px;
+}
+.main .list span:nth-child(13){
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000336.png);
+	background-position: -374px -163px;
+}
+.main .list span:nth-child(13):after{
+	content: '彭博商业周刊';
+	position: absolute;
+	top: 253px;
+	left: 660px;
+	color: #666;
+	font-size: 14px;
+}
+.main .list span:nth-child(14){
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000336.png);
+	background-position: -497px -163px;
+}
+.main .list span:nth-child(14):after{
+	content: '新视线';
+	position: absolute;
+	top: 253px;
+	left: 812px;
+	color: #666;
+	font-size: 14px;
+}
+.main .list span:nth-child(15){
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000336.png);
+	background-position: -620px -163px;
+}
+.main .list span:nth-child(15):after{
+	content: '正午故事';
+	position: absolute;
+	top: 253px;
+	left: 936px;
+	color: #666;
+	font-size: 14px;
+}
+.main .list span:nth-child(16){
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000336.png);
+	background-position: -741px -163px;
+}
+.main .list span:nth-child(16):after{
+	content: '知乎每日精选';
+	position: absolute;
+	top: 253px;
+	left: 1058px;
+	color: #666;
+	font-size: 14px;
+}
+.main .list span:nth-child(17){
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000336.png);
+	background-position: -863px -163px;
+}
+.main .list span:nth-child(17):after{
+	content: 'FT 中文网';
+	position: absolute;
+	top: 253px;
+	left: 1196px;
+	color: #666;
+	font-size: 14px;
+}
+
+.main .article{
+	width: 100%;
+	height: 2300px;
+	padding-top: 110px;
+	background: #fff;
+}
+.main .article .content{
+	width: 100%;
+	height: 80px;
+	text-align: center;
+}
+.main .article .content h2{
+	margin-bottom: 22px;
+	font-size: 34px;
+	color: #424242;
+}
+.main .article .content p{
+	color: #bdbdbd;
+	font-size: 14px;
+}
+.main .article .container{
+	width: 1281px;
+	height: 2110px;
+	margin: 78px auto 0;
+	position: relative;
+}
+.main .article .container li{
+	float: left;
+	padding: 0 25px 52px;
+}
+.main .article .container li img{
+	box-shadow: 0 8px 20px 2px #eee;
+}
+.main .article .container li:nth-child(4){
+	position: absolute;
+	top: 651px;
+	left: 0px;
+}
+.main .article .container li:nth-child(5){
+	position: absolute;
+	top: 711px;
+	left: 427px;
+}
+.main .article .container li:nth-child(6){
+	position: absolute;
+	top: 711px;
+	left: 854px;
+}
+.main .article .container li:nth-child(7){
+	position: absolute;
+	top: 1302px;
+	left: 0px;
+}
+.main .article .container li:nth-child(8){
+	position: absolute;
+	top: 1332px;
+	left: 427px;
+}
+.main .article .container li:nth-child(9){
+	position: absolute;
+	top: 1332px;
+	left: 854px;
+}
+
+
+
+.main .find{
+	width: 100%;
+	height: 878px;
+	background: #f6f6f6;
+	padding: 110px 0 98px;
+}
+.main .find .content{
+	width: 100%;
+	height: 81px;
+	text-align: center;
+}
+.main .find .content h2{
+	margin-bottom: 22px;
+	font-size: 34px;
+	color: #424242;
+}
+.main .find .content p{
+	font-size: 14px;
+	color: #c2bdc2;
+}
+.main .find ul{
+	width: 1208px;
+	margin: 75px auto 0;
+}
+.main .find ul li{
+	padding: 78px 0 97px;
+	float: left;
+	width: 402px;
+	text-align: center;
+}
+.main .find ul li:nth-child(1){
+	border-right: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+}
+.main .find ul li:nth-child(2){
+	border-right: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+}
+.main .find ul li:nth-child(3){
+	border-bottom: 1px solid #e4e4e4;
+}
+.main .find ul li:nth-child(4){
+	border-right: 1px solid #e4e4e4;
+}
+.main .find ul li:nth-child(5){
+	border-right: 1px solid #e4e4e4;
+}
+.main .find ul .news span{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000337.jpg);
+}
+.main .find ul .art span{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000338.jpg);
+}
+.main .find ul .trchnology span{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000339.jpg);
+}
+.main .find ul .science span{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000340.jpg);
+}
+.main .find ul .business span{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000341.jpg);
+}
+.main .find ul .life span{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000342.jpg);
+}
+.main .find ul li h6{
+	font-size: 21px;
+	color: #313131;
+	margin-top: 2px;
+	padding-bottom: 20px;
+}
+.main .find ul li p{
+	font-size: 14px;
+	color: #bdbdbd;
+	margin: 5px 0;
+}
+.main .find ul .hide{
+	display: none;
+}
