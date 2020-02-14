@@ -131,7 +131,7 @@
 /*主要开始*/
 .main{
 	width: 100%;
-	height: 6470px;
+	height: 6254px;
 	background: #f0f0f0;
 }
 .main .nav{
@@ -684,3 +684,385 @@
 .main .find ul .hide{
 	display: none;
 }
+
+.main .ease{
+	width: 100%;
+	height: 972px;
+	padding-top: 110px;
+	overflow: hidden;
+	background: #fff;
+	position: relative;
+}
+.main .ease .content{
+	text-align: center;
+}
+.main .ease .content h2{
+	margin-bottom: 22px;
+	font-size: 34px;
+	color: #424242;
+}
+.main .ease .content p{
+	font-size: 14px;
+	color: #bdbdbd;
+	line-height: 1.8;
+}
+.main .ease .picture{
+	width: 501px;
+	height: 965px;
+	background-image: url(../../images/yk/Smartisan_应用下载-锤子商城/ia_100000343.png);
+	position: absolute;
+	top: 308px;
+	left: 163px;
+}
+.main .ease .picture .ease-iphone1{
+	width: 392px;
+	height: 697px;
+	z-index: 3;
+	position: absolute;
+	top: 100px;
+	left: 54px;
+}
+.main .ease .picture .ease-iphone2{
+	width: 392px;
+	height: 697px;
+	position: absolute;
+	top: 100px;
+	left: 54px;
+}
+.main .ease .picture .ease-iphone3{
+	width: 392px;
+	height: 697px;
+	position: absolute;
+	top: 100px;
+	left: 54px;
+}
+.main .ease .picture .ease-iphone4{
+	width: 392px;
+	height: 697px;
+	position: absolute;
+	top: 100px;
+	left: 54px;
+}
+.main .ease .picture .ease-iphone5{
+	width: 392px;
+	height: 697px;
+	position: absolute;
+	top: 100px;
+	left: 54px;
+}
+.main .ease .words .color{
+	width: 476px;
+	height: 230px;
+	position: absolute;
+	top: 352px;
+	right: 250px;
+}
+.main .ease .words .color h2{
+	margin-bottom: 14px;
+	font-size: 21px;
+	color: #424242;
+}
+.main .ease .words .color p{
+	font-size: 14px;
+	line-height: 1.8;
+	color: #bdbdbd;
+}
+.main .ease .words .color img{
+	margin-top: 25px;
+	margin-right: 16px;
+}
+.main .ease .words .layout{
+	width: 476px;
+	height: 350px;
+	position: absolute;
+	bottom: 75px;
+	right: 250px;
+}
+.main .ease .words .layout h2{
+	margin-bottom: 14px;
+	font-size: 21px;
+	color: #424242;
+}
+.main .ease .words .layout p{
+	font-size: 14px;
+	line-height: 1.8;
+	color: #bdbdbd;
+}
+.main .ease .words .layout img{
+	margin-top: 30px;
+}
+
+
+.main .email{
+	width: 100%;
+	height: 294px;
+	border-top: 1px solid #e5e5e5;
+	background: #fff;
+}
+.main .email .email-container{
+	margin-left: auto;
+	margin-right: auto;
+	padding:108px 0 94px;
+	width: 1220px;
+	/*height: 294px;*/
+	border-bottom: 1px solid #e5e5e5;
+}
+.main .email .email-container h2{
+	font-size: 20px;
+	color: #6c6c6c;
+	margin-bottom: 22px;
+}
+.main .email .email-container p{
+	font-size: 14px;
+	color: #626262;
+	line-height: 1.8;
+}
+.main .email .email-container p a{
+	font-size: 14px;
+	color: #5079d9;
+	cursor: pointer;
+}
+
+
+
+/*中底部开始*/
+.container{
+	width: 100%;
+	height: 324px;
+	border-bottom: 1px solid #eee;
+	background: #fff;
+}
+.container .texing{
+	width: 1220px;
+	height: 324px;
+	margin: auto;
+	margin-top: 80px;
+	/*background: red;*/
+}
+.container .texing .android-tx{
+	float: left;
+	width: 480px;
+	height: 127px;
+}
+.container .texing .android-tx .android-title{
+	width: 480px;
+	height: 39px;
+	border-bottom: 1px solid #eee;
+}
+.container .texing .android-tx .android-title h3{
+	float: left;
+	font-size: 18px;
+	color: #616161;
+}
+.container .texing .android-tx .android-title h6{
+	float: right;
+	color: #bdbdbd;
+	font-size: 12px;
+}
+.container .texing .android-tx .jieshao{
+	float: left;
+	font-size: 12px;
+	color: #999;
+	position: relative;
+	margin-left: 24px;
+}
+.container .texing .android-tx .jieshao li:first-child{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.container .texing .android-tx .jieshao li:first-child:before{
+	content: "";
+	width: 3px;
+	height: 3px;
+	background: #999;
+	position: absolute;
+	top: 32px;
+	left: -12px;
+}
+.container .texing .ios-tx{
+	float: right;
+	width: 480px;
+	height: 163px;
+}
+.container .texing .ios-tx .ios-title{
+	width: 480px;
+	height: 39px;
+	border-bottom: 1px solid #eee;
+}
+.container .texing .ios-tx .ios-title h3{
+	float: left;
+	font-size: 18px;
+	color: #616161;
+}
+.container .texing .ios-tx .ios-title h6{
+	float: right;
+	color: #bdbdbd;
+	font-size: 12px;
+}
+.container .texing .ios-tx .ios-jieshao{
+	float: left;
+	font-size: 12px;
+	color: #999;
+	margin-top: 25px;
+	margin-left: 24px;
+	position: relative;
+}
+.container .texing .ios-tx .ios-jieshao li:nth-child(2){
+	margin: 25px 0px;
+}
+.container .texing .ios-tx .ios-jieshao li:nth-child(3){
+	margin: 25px 0px;
+}
+.container .texing .ios-tx .ios-jieshao li:nth-child(1):before{
+	content: "";
+	width: 3px;
+	height: 3px;
+	background: #999;
+	position: absolute;
+	top: 7px;
+	left: -12px;
+}
+.container .texing .ios-tx .ios-jieshao li:nth-child(2):before{
+	content: "";
+	width: 3px;
+	height: 3px;
+	background: #999;
+	position: absolute;
+	top: 47px;
+	left: -12px;
+}
+.container .texing .ios-tx .ios-jieshao li:nth-child(3):before{
+	content: "";
+	width: 3px;
+	height: 3px;
+	background: #999;
+	position: absolute;
+	top: 89px;
+	left: -12px;
+}
+.container .texing .ios-tx .ios-jieshao li:nth-child(4):before{
+	content: "";
+	width: 3px;
+	height: 3px;
+	background: #999;
+	position: absolute;
+	top: 130px;
+	left: -12px;
+}
+/*中底部结束*/
+
+
+
+/*底部开始*/
+.footer{
+	width: 100%;
+	height: 343px;
+	background: #fafafa;
+}
+.footer .container{
+	width: 1221px;
+	height: 342px;
+	margin: 0px auto;
+}
+.footer .container .footer-top{
+	width: 100%;
+	height: 215px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.footer .container .footer-top .ft dl{
+	float: left;
+	margin-right: 100px;
+	margin-top: 60px;
+	font-size: 11px;
+}
+.footer .container .footer-top .ft dl dt{
+	color: #646464;
+	margin-bottom: 29px;
+	font-weight: bold;
+}
+.footer .container .footer-top .ft dl dd{
+	color: #969696;
+	margin-bottom: 17px;
+}
+.footer .container .footer-top .ft dl dd:hover{
+	color: #5079d9;
+	cursor: pointer;
+}
+.footer .container .ft-right{
+	float: right;
+	text-align: right;
+	margin-top: 61px;
+	position: relative;
+}
+.footer .container .ft-right h2{
+	color: #5079d9;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 11px;
+}
+.footer .container .ft-right .ft-p2{
+	font-size: 11px;
+	color: #999;
+	margin-bottom: 2px;
+}
+.footer .container .ft-right .ft-p3{
+	font-size: 11px;
+	color: #999;
+	margin-bottom: 19px;
+}
+.footer .container .ft-right .ft-a{
+	width: 134px;
+	height: 32px;
+	border: 1px solid #d0d0d0;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 11px;
+	position: absolute;
+	right: 0px;
+}
+.footer .container .ft-right .ft-a:hover{
+	background: #f5f5f5;
+	cursor: pointer;
+}
+.footer .container .ft-right .ft-a a{
+	color: #5079d9;
+	font-weight: bolder;
+}
+.footer .container .ft-right .ft-a img{
+	vertical-align: -1px;
+	margin-right: 4px;
+}
+.footer .container .footer-bottom{
+	width: 100%;
+	height: 128px;
+	position: relative;
+}
+.footer .container .footer-bottom .footer-item{
+	float: left;
+	color: #bdbdbd;
+	margin: 31px 0px 12px 0px;
+	margin-right: 10px;
+
+}
+.footer .container .footer-bottom li:first-child{
+	font-size: 8px;
+	color: #bdbdbd;
+	line-height: 24px;
+}
+.footer .container .footer-bottom .footer-item  a{
+	font-size: 12px;
+	color: #bdbdbd;
+	margin-left: 10px;
+}
+.footer .container .footer-bottom .footer-item a:hover{
+	color: #5079d9;
+}
+.footer .container .footer-bottom .ft-font{
+	position: absolute;
+	top: 56px;
+	left: 0px;
+	color: #bdbdbd;
+	font-size: 8px;
+}
+/*底部结束
